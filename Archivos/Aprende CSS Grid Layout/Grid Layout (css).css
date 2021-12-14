@@ -1,0 +1,42 @@
+.grid-container{
+    display: grid; /*Esta es la manera de inicializar o crear la rejilla*/
+    background-color: blanchedalmond;
+    grid-template-areas:'header header header ' 
+    'menu main aside'
+    'footer footer footter';
+    
+}
+
+.grid-container div{ /*Son los divs que estan dentro de del container */
+    background-color: blanchedalmond;
+    text-align: center;
+    color: blue;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.item1{
+    grid-area: header;
+
+   
+}
+.item2{
+    grid-area: menu;
+
+   
+}
+.item3{
+    grid-area: main;
+
+   
+}
+.item4{
+    grid-area: aside;
+
+   
+}
+.item5{
+    grid-area: footer;
+
+   
+}
